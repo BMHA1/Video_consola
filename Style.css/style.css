@@ -1,0 +1,19 @@
+ .contenedorprincipal{
+     border: 0.1px solid red;
+     height: 102mm;
+     width: 239mm;
+     display: grid;
+     grid-template-columns: 1fr, 3fr, 1fr;
+
+ }
+
+ .lateralizq{
+
+ }
+
+.central{
+    
+}
+ .lateraldcho{
+
+ }

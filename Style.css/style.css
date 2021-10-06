@@ -13,7 +13,7 @@
  .star {
     width: 0.7em;
     height: 0.11em;
-    border: 0.08em solid rgba(29, 28, 28, 0.808);
+    border: 0.08em solid #a79898;
     margin-right: 0.1em;
     border-radius: 002em;
     background-color: #e2dbdb;
@@ -30,7 +30,7 @@
  }
 
  [caja=supcentral] {
-    border-left: 0.2em solid #6ee9e9;
+    border-left: 0.2em solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,16 +38,33 @@
  }
 
  .jostick {
-    border: 0.08em solid rgba(71, 70, 70, 0.808);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.09em solid #b8b5b5;
     width: 1.6em;
     height: 1.6em;
     border-radius: 50%;
-    background: rgb(185, 179, 181);
-    background: radial-gradient(circle, rgba(240, 232, 234, 1) 0%, rgba(195, 195, 195, 1) 100%);
+
+    background: radial-gradient(circle, rgba(251, 241, 241, 1) 0%, rgba(221, 217, 217, 1) 97%);
+   
+    -webkit-box-shadow: -1px 5px 14px 0px rgb(0 0 0 / 75%);
+    
+
+ }
+
+ .hjostick {
+    border: 0.09em solid #dbcece;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    background: rgb(236, 231, 233);
+    background: radial-gradient(circle, rgb(233, 224, 226) 0%, rgb(255, 245, 245) 100%);
  }
 
  .izqinferior2 {
-    background-color: #fd8184 ;
+    background: rgb(253, 129, 132);
+   
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -57,7 +74,6 @@
     margin-left: 0.2em;
     width: 2.2em;
     height: 2.2em;
-    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -81,35 +97,38 @@
  }
 
  .bot[caja=superior] {
-   border-top: solid 0.05em black;
-   border-right: solid 0.05em black;
-   border-left: solid 0.05em black;
+    border-top: solid 0.09em #1e1e1e;
+    border-right: solid 0.09em #1e1e1e;
+    border-left: solid 0.09em #1e1e1e;
     border-top-left-radius: 0.13em;
     border-top-right-radius: 0.13em;
  }
 
  .bot[caja=derecha] {
-   border-bottom: solid 0.05em black;
-   border-top: solid 0.05em black;
-   border-left: solid 0.05em black;
+    border-bottom: solid 0.09em #1e1e1e;
+    border-top: solid 0.09em #1e1e1e;
+    border-left: solid 0.09em #1e1e1e;
     border-top-left-radius: 0.13em;
     border-bottom-left-radius: 0.13em;
+    -webkit-box-shadow: 0px 2px 0px 0px rgb(0 0 0 / 25%)
  }
 
  .bot[caja=izquierda] {
-   border-bottom: solid 0.05em black;
-   border-top: solid 0.05em black;
-   border-right: solid 0.05em black;
+   -webkit-box-shadow: 0px 2px 0px 0px rgb(0 0 0 / 25%);
+    border-bottom: solid 0.09em #1e1e1e;
+    border-top: solid 0.09em #1e1e1e;
+    border-right: solid 0.09em #1e1e1e;
     border-top-right-radius: 0.13em;
     border-bottom-right-radius: 0.13em;
  }
 
  .bot[caja=inferior] {
-    border-left: solid 0.05em black;
-    border-bottom: solid 0.05em black;
-    border-right: solid 0.05em black;
+    border-left: solid 0.09em #1e1e1e;
+    border-bottom: solid 0.09em #1e1e1e;
+    border-right: solid 0.09em #1e1e1e;
     border-bottom-left-radius: 0.13em;
     border-bottom-right-radius: 0.13em;
+     -webkit-box-shadow: 0px 2px 0px 0px rgb(0 0 0 / 25%)
  }
 
  .triasuperior {
@@ -146,9 +165,29 @@
  }
 
  .izqinferior1 {
-    text-align: center;
+    display: flex;
     background-color: #fd8184;
     border-bottom-left-radius: 40em 26em;
+    justify-content: flex-end;
+ }
+
+ .botonreset {
+    width: 0.5em;
+    height: 0.5em;
+    border: 0.08em solid rgb(173 168 168 / 81%);
+    margin-right: 0.1em;
+    background-color: #e2dbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .interiorrest {
+    width: 0.3em;
+    height: 0.3em;
+    border: 0.08em solid rgb(177 168 168 / 81%);
+    background-color: #d8d4d4;
+    border-radius: 50%;
  }
 
  .lateraldcho {

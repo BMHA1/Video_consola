@@ -1,19 +1,156 @@
- .contenedorprincipal{
-     border: 0.1px solid red;
-     height: 102mm;
-     width: 239mm;
-     display: grid;
-     grid-template-columns: 1fr, 3fr, 1fr;
-
+ .contenedorprincipal {
+    height: 12em;
+    width: 30em;
+    display: grid;
+    grid-template-columns: 0.5fr 2.5fr 0.5fr
  }
 
- .lateralizq{
-
+ .lateralizq {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
  }
 
-.central{
+ .star {
+    width: 0.7em;
+    height: 0.11em;
+    border: 0.08em solid rgba(29, 28, 28, 0.808);
+    margin-right: 0.1em;
+    border-radius: 002em;
+    background-color: #e2dbdb;
+ }
+
+ .izqsuperior2 {
+    border-top-left-radius: 40em 26em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #fd8184;
+    margin-left: -0.2em;
+    margin-top: -0.2em
+ }
+
+ [caja=supcentral] {
+    border-left: 0.2em solid #6ee9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fd8184;
+ }
+
+ .jostick {
+    border: 0.08em solid rgba(71, 70, 70, 0.808);
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 50%;
+    background: rgb(185, 179, 181);
+    background: radial-gradient(circle, rgba(240, 232, 234, 1) 0%, rgba(195, 195, 195, 1) 100%);
+ }
+
+ .izqinferior2 {
+    background-color: #fd8184 ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+ }
+
+ .flechas {
+    margin-left: 0.2em;
+    width: 2.2em;
+    height: 2.2em;
     
-}
- .lateraldcho{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+ }
 
+ .bot {
+    background: rgb(240, 232, 234);
+    background: radial-gradient(circle, rgba(240, 232, 234, 1) 0%, rgba(195, 195, 195, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .botc {
+    background-color: rgb(212, 211, 212);
+ }
+
+ .esquina1 {
+    border-bottom-left-radius: 0.13em;
+    border-bottom-right-radius: 0.13em;
+ }
+
+ .bot[caja=superior] {
+   border-top: solid 0.05em black;
+   border-right: solid 0.05em black;
+   border-left: solid 0.05em black;
+    border-top-left-radius: 0.13em;
+    border-top-right-radius: 0.13em;
+ }
+
+ .bot[caja=derecha] {
+   border-bottom: solid 0.05em black;
+   border-top: solid 0.05em black;
+   border-left: solid 0.05em black;
+    border-top-left-radius: 0.13em;
+    border-bottom-left-radius: 0.13em;
+ }
+
+ .bot[caja=izquierda] {
+   border-bottom: solid 0.05em black;
+   border-top: solid 0.05em black;
+   border-right: solid 0.05em black;
+    border-top-right-radius: 0.13em;
+    border-bottom-right-radius: 0.13em;
+ }
+
+ .bot[caja=inferior] {
+    border-left: solid 0.05em black;
+    border-bottom: solid 0.05em black;
+    border-right: solid 0.05em black;
+    border-bottom-left-radius: 0.13em;
+    border-bottom-right-radius: 0.13em;
+ }
+
+ .triasuperior {
+    height: 0em;
+    width: 0em;
+    border-bottom: 0.3em solid #6d6e6e36;
+    border-right: 0.15em solid transparent;
+    border-left: 0.15em solid transparent;
+ }
+
+ .trialeft {
+    display: flex;
+    height: 0em;
+    width: 0em;
+    border-bottom: 0.15em solid transparent;
+    border-top: 0.15em solid transparent;
+    border-left: 0.3em solid #6d6e6e36;
+ }
+
+ .triaright {
+    height: 0em;
+    width: 0em;
+    border-bottom: 0.15em solid transparent;
+    border-top: 0.15em solid transparent;
+    border-right: 0.3em solid #6d6e6e36;
+ }
+
+ .triainferior {
+    height: 0em;
+    width: 0em;
+    border-top: 0.3em solid #6d6e6e36;
+    border-right: 0.15em solid transparent;
+    border-left: 0.15em solid transparent;
+ }
+
+ .izqinferior1 {
+    text-align: center;
+    background-color: #fd8184;
+    border-bottom-left-radius: 40em 26em;
+ }
+
+ .lateraldcho {
+    border: 1px solid green;
  }

@@ -22,7 +22,7 @@ body {
    border-bottom-left-radius: 30em 26em;
 }
 
-.conte_izq_sup_1 {
+.conte_izq_1 {
    border-top-left-radius: 40em 26em;
    display: grid;
    grid-template-columns: 3fr 1fr;

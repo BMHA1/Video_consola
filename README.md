@@ -1,2 +1,16 @@
 # Video_consola
-VÍdeoconosala_HTML/CSS3
+Videoconosala_HTML/CSS3/Javascript
+
+# Primer proyecto en Geekhubs Vídeoconsola
+
+## Herramientas
+
+* HTML
+* CSS 
+* JAVASCRIPT
+
+
+## Estructura de las clases y secuencia de progrmación:
+
+![estructura de programación](imagenes\diagrama.JPG)
+
